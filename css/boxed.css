@@ -1,11 +1,3 @@
 .container {
 	border: solid 2px;
 }
-
-.resume {
-	border: solid 1px red;
-}
-
-.resume__jpg__box {
-	border: solid green 1px;
-}
