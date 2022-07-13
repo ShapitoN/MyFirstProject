@@ -7,7 +7,6 @@
 <head>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/boxed.css">
     <!--Заголовок страницы в браузере-->
     <title>Верстаю страницу</title>
     <!--Кодировка страницы-->
@@ -35,65 +34,98 @@
         <div class="resume">
             <div class="resume__text-box">
                 <h1 class="resume__greeting">Hi, I am Mars,<br> A good boy</h1>
-                <p class="resume__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                <p class="resume__text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                    Velit
                     officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <div class="resume__button"><a href="https://book-horror.ru/wp-content/uploads/2020/09/maxresdefault-3-1.jpg" class="resume__downloadlink">Download Resume</a></div>
+                <div class="resume__button"><a
+                        href="https://book-horror.ru/wp-content/uploads/2020/09/maxresdefault-3-1.jpg"
+                        class="resume__downloadlink">Download Resume</a></div>
             </div>
             <div class="resume__jpg__box"><img class="resume__jpg" src="img/a_good_boy.jpg" alt="a good boy"></div>
         </div>
         <br>
-        <div class="Posts-box">
-            <h2 class="recent-posts">Recent posts</h2>
-            <a href="" class="view-all">View all</a>
-            <div class="posts-items">
-                <h3>Making a design system from scratch</h3>
-                <div>12 Feb 2020</div>
-                <div>Design, Pattern</div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            </div>
-            <div class="posts-items">
-                <h3>Creating pixel perfect icons in Figma</h3>
-                <div>12 Feb 2020</div>
-                <div>Figma, Icon Design</div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            </div>
+        <div class="Posts-box container">
+            <header class="posts_header">
+                <h2 class="recent-posts">Recent posts</h2>
+                <a href="" class="view-all">View all</a>
+            </header>
+            <main class="posts_main">
+                <div class="posts-items">
+                    <h3 class="posts-items_title">Making a design system from scratch</h3>
+                    <div class="dateandlocation">
+                        <div class="dateandlocation_date">12 Feb 2020</div>
+                        <div class="dateandlocation_location">Design, Pattern</div>
+                    </div>
+                    <p class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                        officia
+                        consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <div class="posts-items">
+                    <h3 class="posts-items_title">Creating pixel perfect icons in Figma</h3>
+                    <div class="dateandlocation">
+                        <div class="dateandlocation_date">12 Feb 2020</div>
+                        <div class="dateandlocation_location">Figma, Icon Design</div>
+                    </div>
+                    <p class="text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                        officia
+                        consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </main>
         </div>
 
+        <h2 class="recent-posts">Feature works</h2>
         <div class="feature-works-box">
-            <h2>Feature works</h2>
             <div class="feature-item">
-                <h3>Designing Dashboards</h3>
-                <div>2020</div>
-                <div>Dashboard</div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <img src="" alt="">
+                <img class="feature-item_img" src="/img/dog_police.jpg" alt="">
+                <div class="feature-item_content">
+                <h3 class="feature-item_title">Designing Dashboards</h3>
+                <div class="feature-item_dateandtype">
+                <div class="feature-item_date"><div class="year"> 2020</div></div>
+                <div class="feature-item_type">Dashboard</div>
+                </div>
+                <p class="feature-item_text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
             </div>
             <div class="feature-item">
-                <h3>Vibrant Portraits of 2020</h3>
-                <div>2018</div>
-                <div>Illustration</div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <img src="" alt="">
+                <img class="feature-item_img" src="/img/dog_lifeguard.jpg" alt="">
+                <div class="feature-item_content">
+                <h3 class="feature-item_title">Vibrant Portraits of 2020</h3>
+                <div class="feature-item_dateandtype">
+                <div class="feature-item_date"><div class="year"> 2018</div></div>
+                <div class="feature-item_type">Illustration</div>
+            </div>
+                <p class="feature-item_text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
             </div>
             <div class="feature-item">
-                <h3>36 Days of Malayalam type</h3>
-                <div>2018</div>
-                <div>Typography</div>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <img src="" alt="">
+                <img class="feature-item_img" src="/img/guide_dog.jpeg
+                " alt="">
+                <div class="feature-item_content">
+                <h3 class="feature-item_title">36 Days of Malayalam type</h3>
+                <div class="feature-item_dateandtype">
+                <div class="feature-item_date"><div class="year"> 2018 </div></div>
+                <div class="feature-item_type">Typography</div>
+            </div>
+                <p class="feature-item_text text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
             </div>
         </div>
 
     </main>
 
     <footer class="page-footer container">
-        <div class="footer-links"></div>
-        <div class="footer-bot"></div>
+        <div class="footer-links">
+            <a href="" class="fa-brands fa-facebook-square "></a>
+            <a href="" class="fa-brands fa-instagram"></a>
+            <a href="" class="fa-brands fa-twitter"></a>
+            <a href="" class="fa-brands fa-vk"></a>
+        </div>
+        <div class="footer-bot">Copyright ©2020 All rights reserved </div>
     </footer>
 </body>
 
